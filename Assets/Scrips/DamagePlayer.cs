@@ -14,8 +14,8 @@ public class DamagePlayer: MonoBehaviour
             damageTime = 0f;
         }
     }
-    //public static void Lesslife()
-    //{
-    //    lifeManager.lifes -= 1;
-    //}
+    public static void Lesslife()
+    {
+        lifeManager.lifes -= 1;
+    }
 }
