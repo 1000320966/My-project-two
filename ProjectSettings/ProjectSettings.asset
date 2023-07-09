@@ -717,11 +717,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Myprojecttwo
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 803c891989d1da01
   metroApplicationDescription: My project two
   wsaImages: {}
   metroTileShortName: My project two
