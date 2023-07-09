@@ -10,7 +10,7 @@ public class lifeManager : MonoBehaviour
     public static bool endSignal = false;
     void Start()
     {
-        gameObject.transform.parent.GetComponent<Image>().color = new Color(0, 0, 0, 0);
+       lifes=4;
     }
     void Update()
     {
