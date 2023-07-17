@@ -2773,7 +2773,6 @@ GameObject:
   - component: {fileID: 902336726}
   - component: {fileID: 902336725}
   - component: {fileID: 902336724}
-  - component: {fileID: 902336723}
   m_Layer: 5
   m_Name: ButtonOff
   m_TagString: Untagged
@@ -2802,19 +2801,6 @@ RectTransform:
   m_AnchoredPosition: {x: -89.34248, y: 10.234703}
   m_SizeDelta: {x: 187.1021, y: 72.3714}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &902336723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902336721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbdb2e77ea241ae48a1849fc05c79b17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelSelect: 7
 --- !u!114 &902336724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2858,31 +2844,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 902336725}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 902336723}
-        m_TargetAssemblyTypeName: PanelSelect, Assembly-CSharp
-        m_MethodName: changePanel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1426388214}
-        m_TargetAssemblyTypeName: PanelManager, Assembly-CSharp
-        m_MethodName: LoadController
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &902336725
 MonoBehaviour:
   m_ObjectHideFlags: 0
